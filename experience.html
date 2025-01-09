@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+background-image: url(image/green1\ \(1\).jpeg);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <style>
+body {
+    margin: 0;
+}
+       /*header*/
+.header {
+    background: #c1e9b5d3;
+    color: #406437dc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .header img {
+            width: 250px;
+            height: auto;
+           right: 15px;
+           top: 50px;
+           position: absolute;
+           transform: translateY(-50%);
+        }
+
+
+        /* Navigation Bar */
+        nav {
+            background-color: #0e0d0dd5;; 
+            padding: 15px 30px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 12px;
+            padding: 15px;
+            
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 10px; 
+            transition: color 0.3s ease;
+
+        }
+
+        nav ul li a:hover {
+            color: #97d684;
+            background-color: #30AF85;
+            border-radius: 5px;
+        }
+ 
+        /* Box Section */
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.work-box {
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    background-color: #b8e2aa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.work-box:hover {
+    transform: scale(1.05); 
+    background-color: #87ad6f; 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); 
+}
+.work-box img {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    margin: 0 auto 20px; 
+    display: block; 
+    border-radius: 5%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+.position {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.company {
+    color: #000000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;    
+font-weight: 300;
+}
+
+.duration {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    font-weight: 350;
+    margin-bottom: 5px;
+}
+
+.responsibilities {
+    margin: 15px 0 0 20px;
+    padding: 0;
+    list-style-type: disc;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+        
+/* Responsive Design */
+@media (max-width: 700px) {
+    .container {
+        width: 95%;
+    }
+
+    .work-box h3 {
+        font-size: 1.2em;
+    }
+}
+
+    footer {
+            background-color: #0e0d0dd5;
+            padding: 25px;
+            text-align: center;
+            font-weight: 200;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="about.html"><img src="image/style3.jpg.png" alt=""></a>
+<h1>EXPERIENCES</h1>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="personaldetail.html">Personal Details</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+ 
+    <div class="container">
+        <!-- First Job -->
+        <div class="work-box">
+            <img src="image/js.jpg" alt="js">
+            <p class="position">Cashier</p>
+            <p class="company">Cahaya Kualiti Sdn.Bhd</p>
+            <p class="duration">March 2021 - July 2021</p>
+            <ul class="responsibilities">
+                <li>Accurately process payments.</li>
+                <li>Provide product information and help customers locate specific items.</li>
+                <li>Resolve customer complaints, guide them, and provide relevant information.</li>
+                <li>Maintain clean and tidy checkout areas.</li>
+            </ul>
+        </div>
+
+   <!--second-->
+        <!-- Second Job -->
+        <div class="work-box">
+            <img src="image/am.png" alt="am">
+            <p class="position">Back-Up Sales Assistant</p>
+            <p class="company">Pasaraya Am Trading Sdn.Bhd</p>
+            <p class="duration">July 2022 - October 2022</p>
+            <ul class="responsibilities">
+                <li>Recommending products or merchandise to help customers.</li>
+                <li>Informing customers about sales, promotions, and policies.</li>
+                <li>Taking payments for purchases and packaging purchases.</li>
+                <li>Greeting customers and offering assistance.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Aerolina Joanne Aprzoh. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

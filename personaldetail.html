@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+background-image: url(image/green1\ \(1\).jpeg);        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <style>
+
+body {
+    margin: 0;
+}
+        .header {
+            background: #c1e9b5d3;
+            color: #406437dc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .header img {
+            width: 250px;
+            height: auto;
+           right: 15px;
+           top: 50px;
+           position: absolute;
+           transform: translateY(-50%);
+        }
+
+        /* Nav Bar */
+        nav {
+            background-color: #0e0d0dd5;; 
+            padding: 15px 30px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 12px;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 10px;
+            transition: color 0.3s ease;
+
+        }
+
+        nav ul li a:hover {
+            color: #bad1aa;
+            background-color: #42a785;
+            border-radius: 6px;
+        }
+    
+        /* Content Layout: Image left video right */
+        .content-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px; /* Added margin to separate content from the header */
+        }
+
+        .content-container .left, .content-container .right {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       /* Image Hover */
+.content-container .left img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease;
+}
+
+/* Video Hover */
+.content-container .right video:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+        }
+.details-box:hover, .details-box2:hover {
+    transform:translateY(-5px) ;
+    transition: all 0.3s ease;
+    background-color: #85a86c;
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.1)
+    
+}
+        /*Body Content*/
+        .section {
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        .section h2 {
+            text-align: center;
+        }
+        
+        .details-box {
+            border: 2px ;
+            padding: 15px;
+            margin: 20px auto;
+            width: 580px;
+            background-color: #c2ddb1;
+            border-radius: 8px;
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+            
+        }
+
+        .details-box2 {
+            border: 2px ;
+            padding: 15px;
+            margin: 20px auto;
+            width: 580px;
+            background-color: #c2ddb1;
+            border-radius: 8px;
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in;
+        }
+
+        .details-box2 h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .details-box2 p {
+            margin: 5px 0;
+            font-size: 18px;
+           
+        }
+
+        .details-box h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .details-box p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        
+        .details-box:hover, .details-box2:hover {
+    transform:translateY(-5px) ;
+    transition: all 0.3s ease;
+    background-color: #85a86c;
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.1)
+        }
+
+        nav ul li a:hover {
+color: #bad1aa;
+background-color: rgb(91, 163, 139);
+border-radius: 8px;
+transform: scale(1.5);
+transition: all 0.3s ease;
+        }
+
+        /* Footer Section */
+        footer{
+            background-color: #0e0d0dd5;
+            padding: 26px;
+            text-align: center;
+            color: #ffffff;
+            font-weight: 100;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="about.html"><img src="image/style3.jpg.png" alt=""></a>
+<h1>PERSONAL DETAIL</h1>
+    </div>
+
+    <!-- Navigation Bar with links-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="personaldetail.html">Personal Details</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- Content: Image on the left, video on the right -->
+    <div class="content-container">
+
+        <!-- Left side (image) -->
+        <div class="left">
+            <img src="image/Joan.jpg" alt="Joanne Aprzoh - Portrait">
+        </div>
+        
+        <!-- Right side (video) -->
+        <div class="right">
+            <video controls>
+                <source src="video/Introduction.mp4" type="video/mp4">
+                video tag.
+            </video>
+        </div>
+    </div>
+
+    <div class="details-box">
+        <h2>PROFILES</h2>
+        <p>Name: Aerolina Joanne Aprzoh</p>
+        <p>Birth Date: 19 July 2003</p>
+        <p>Age: 22 Year Old</p>
+        <p>Gender: Female</p>
+        <p>Address: Tuaran,Sabah</p>
+    </div>
+
+    <div class="details-box2">
+<h2>RESOURCES PERSON</h2>
+<p>Dr. Hussain Hashim</p>
+<p>Head of School Of</p>
+<P>Information Science</P>
+<p>603-79622149</p>
+
+    </div>
+
+    <footer>
+        <p>© 2024 Aerolina Joanne Aprzoh. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

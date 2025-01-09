@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+background-image: url(image/green1\ \(1\).jpeg);        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+        
+            margin: 0;
+        }
+/*header*/
+.header {
+            background: #c1e9b5d3;
+            color: #406437dc;
+            padding: 10px;
+            text-align: center;
+ 
+        }
+        .header img {
+            width: 250px;
+            height: auto;
+           right: 15px;
+           top: 50px;
+           position: absolute;
+           transform: translateY(-50%);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-top: 0;
+            padding: 0%;
+            background-color: #e2deb7;
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #0e0d0dd5;
+        }
+    
+        /* Nav Bar */
+        nav {
+            background-color: #181616d5;; 
+            padding: 15px 30px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+            
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 12px;
+            padding: 15px;
+        
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #bad1aa;
+            background-color: #30AF85;
+            border-radius: 5px;
+        }
+        /* Header  with logo on the left */
+        header {
+            background-image: url(image/texture.jpg.jpeg);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Content: Image left and video right */
+        .content-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px; 
+        }
+
+        .content-container .left, .content-container .right {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /*body content */
+        .section {
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        .section p {
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: justify;
+            font-size: medium;
+        }
+
+        .section h2 {
+            text-align: center;
+        }
+
+        /*Body Content*/
+        .section {
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        .section h2 {
+            text-align: justify;
+        }
+        
+        .details-box {
+            border: 2px ;
+            padding: 15px;
+            margin: 20px auto;
+            width: 600px;
+            background-color: #adc59e;
+            border-radius: 8px;
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .details-box2 {
+            border: 2px ;
+            padding: 15px;
+            margin: 20px auto;
+            width: 600px;
+            background-color: #adc59e;
+            border-radius: 8px;
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in;
+        }
+
+        .details-box2 h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .details-box2 p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        .details-box h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .details-box p {
+            text-align: justify;
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        
+        .details-box:hover, .details-box2:hover {
+    transform:translateY(-5px) ;
+    transition: all 0.3s ease;
+    background-color: #85a86c;
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.1)
+        }
+
+        nav ul li a:hover {
+color: #bad1aa;
+background-color: rgb(91, 163, 139);
+border-radius: 8px;
+transform: scale(1.5);
+transition: all 0.3s ease;
+        }
+
+        /* Footer*/
+        footer {
+            background-color: #0e0d0dd5;
+            padding: 25px;
+            text-align: center;
+            font-weight: 200;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="about.html"><img src="image/style3.jpg.png" alt=""></a>
+<h1>WELCOME</h1>
+    </div>
+
+    <!-- Navigation Bar with links to other pages -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="personaldetail.html">Personal Details</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+    
+    <!-- Content: Image on the left, video on the right -->
+    <div class="content-container">
+        <!-- Left side (image) -->
+        <div class="left">
+
+            <img src="image/Joan.jpg" alt="Joanne Aprzoh - Portrait">
+        </div>
+    
+        </div>
+
+ <div class="details-box2">
+<h2>WHY I APPLY FOR THE POSITION AS A WEB DEVELOPER</h2>
+<p>  I submitted my application for this role because the technology landscape is in a constant state of change. There’s always something fresh to explore, whether it’s an emerging programming language, a new framework, or a different tool. This ongoing transformation keeps things stimulating and guarantees that I will continue to develop. Engaging in coding is consistently enjoyable and offers new experiences.</p>
+    </div>
+
+    <div class="details-box">
+        <h2>OBJECTIVES</h2>
+       <p>As an enthusiastic Web Developer, my goal is to utilize my abilities in problem-solving, software development, and ongoing learning to create innovative solutions that enhance efficiency and positively impact lives. I am eager to share my insights and expertise with a dynamic team, work together on stimulating projects.</p>
+    </div>
+ 
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Aerolina Joanne Aprzoh. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

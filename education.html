@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+background-image: url(image/green1\ \(1\).jpeg);        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+
+body {
+    margin: 0;
+}
+        /*header*/
+.header {
+    background: #c1e9b5d3;
+    color: #406437dc;
+            padding: 10px;
+            text-align: center;
+}
+
+.header img {
+            width: 250px;
+            height: auto;
+           right: 15px;
+           top: 50px;
+           position: absolute;
+           transform: translateY(-50%);
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #0e0d0dd5;; 
+            padding: 15px 30px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 12px;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 10px; 
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #97d684;
+            background-color: #30AF85;
+            border-radius: 5px;
+        }
+
+        /*image section*/
+        .image-row {
+            border: 2px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px;
+        }
+
+        .image-row img {
+            width: 300px;
+            height: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .image-row img:hover {
+            transform: scale(1.1);
+        }
+  /* Box Section */
+  .details-container {
+            display: flex;
+            justify-content: space-between; 
+            gap: 30px; 
+            margin: 30px;
+        }
+
+        .details-box {
+            border: 2px solid #ffffff;
+            margin-left: 30px;
+            width: 500px;
+            background-color: #a6c294;
+            border-radius: 4px;
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .details-box2 {
+            border: 2px solid #ffffff;
+            margin-right: 30px;
+            width: 500px;
+            background-color: #a6c294;
+            border-radius: 4px;
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .details-box2 h2, .details-box h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            margin-left: 5px;
+        }
+
+        .details-box2 p, .details-box p {
+            margin: 8px 0;
+            font-size: 18px;
+            text-align: center;
+
+        }
+
+        .details-box:hover, .details-box2:hover {
+    transform:translateY(-5px) ;
+    transition: all 0.3s ease;
+    background-color: #85a86c;
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.1)
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #0e0d0dd5;
+            padding: 26px;
+            text-align: center;
+            color: #ffffff;
+            font-weight: 100;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="about.html"><img src="image/style3.jpg.png" alt=""></a>
+<h1>EDUCATION</h1>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="personaldetail.html">Personal Details</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+<div class="image-row">
+    <a href="https://ms.wikipedia.org/wiki/Sekolah_Menengah_Kebangsaan_Tenghilan">
+        <img src="image/smktee.jpg" alt="hs">
+        <a href="https://ms.wikipedia.org/wiki/UiTM_Kampus_Puncak_Perdana">
+            <img src="image/uitm.png" alt="uni">
+        </a>
+</div>
+
+<!-- Details Container two boxes -->
+<div class="details-container">
+    <!-- Box 1 -->
+    <div class="details-box">
+        <h2>SMK TENGHILAN</h2>
+        <p>2016-2021</p>
+        <p>Study Duration: 5Years</p>
+        <p>SPM's Result: 1A- 2B+ 2B 2C</p>
+        <p>Module: Computer Graphicode</p>
+        <p>STPM CGPA: 2.67</p>
+        <p>Address: Sekolah Menengah Kebangsaan Tenghilan
+            Peti Surat 875
+            89208, Tuaran
+            Sabah, Malaysia</p>
+
+    </div>
+
+    <!-- Box 2 -->
+    <div class="details-box2">
+        <h2>UiTM PUNCAK PERDANA</h2>
+        <p>2023-2026</p>
+        <p>Study Duration: 3Years (6Semester)</p>
+        <p>Module: Bachelor of Information 
+            Science (Hons) Information System Management</p>
+        <p>CGPA: 3.67</p>
+        <p>Address: Kampus UiTM Puncak Perdana
+            Jalan Pulau Indah Au10/A
+            Puncak Perdana
+            40150 Shah Alam
+            Selangor Darul Ehsan</p>
+        
+    </div>
+</div>
+    <footer>
+        <p>© 2024 Aerolina Joanne Aprzoh. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

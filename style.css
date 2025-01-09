@@ -1,0 +1,96 @@
+html
+   /* General page settings */
+   html, body {
+    height: 100%;
+    margin: 0
+    padding 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    color: #ffffff;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bfceb8;; 
+    color: #ffffff; 
+    padding: 0;
+
+    /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px 0;
+    background-color: #aac49e;
+  }
+  
+  #skills .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  #skills h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .skill {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .skill h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .skill ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill li {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+
+  /* Styling for the image */
+  .content-container .left img {
+    width: 250px;
+    height: 300px;
+    border-radius: 2%;
+    box-shadow: 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the video */
+.content-container .right video {
+    width: 60%;
+    height: 50%;
+    box-shadow: 6px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 3%;
+}
+
+
+
+}

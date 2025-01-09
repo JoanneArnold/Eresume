@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url(image/green1\ \(1\).jpeg);
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Segoe UI font */
+        }
+
+        /*header*/
+        .header {
+            background: #c1e9b5d3;
+            color: #406437dc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .header img {
+            width: 250px;
+            height: auto;
+            right: 15px;
+            top: 50px;
+            position: absolute;
+            transform: translateY(-50%);
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #0e0d0dd5;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 12px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #97d684;
+            background-color: #6cd382;
+            border-radius: 5px;
+        }
+
+        /* Skills box */
+        .skills-section {
+            padding: 30px;
+            margin: 20px;
+            text-align: left;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #c0e2a9;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .skills-section h2 {
+            font-size: 28px;
+            color: #95b981c4;
+            margin-bottom: 30px;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        /* Skill Name */
+        .skill-name {
+            font-size: 18px;
+            color: #000000;
+            margin-bottom: 5px;
+        }
+
+        /* Bars */
+        .skill-bar-container {
+            margin-bottom: 20px;
+            transition: all 3s ease;
+        }
+
+        .skill-bar {
+            position: relative;
+            height: 15px;
+            background-color: #ffffff;
+            border-radius: 3px;
+            overflow: hidden;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .skill-bar:hover span {
+            filter: brightness(1.2);
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .skill-bar span {
+            display: block;
+            height: 100%;
+            text-align: center;
+            line-height: 10px;
+            color: rgba(255, 255, 255, 0.795);
+            font-size: 12px;
+            font-weight: bold;
+            border-radius: 5px;
+            width: 0;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .skills-section:hover {
+    transform:translateY(-5px) ;
+    transition: all 0.3s ease;
+    background-color: #89ac71;
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.1)
+
+        }
+
+        /* Soft skills */
+        .softskills { background-color: #000000; }
+        .leadership { background-color: brown; }
+        .communication { background-color: #79b9c9d5; }
+        .criticalthinking { background-color: #b8be5ae0; }
+        .timemanagement { background-color: #cc8dc9; }
+        .teamwork { background-color: #7e9fb9; }
+        .problemsolving { background-color: #3b9b83; }
+        .programmingskills { background-color: black; }
+
+        /* Programming Language */
+        .html { background-color: #bb7975; }
+        .css { background-color: #76adda; }
+        .javascript { background-color: #ff9800; }
+        .python { background-color: #4caf50; }
+        .react { background-color: #9c27b0; }
+        .sql { background-color: #3f51b5; }
+
+        /* Language skills */
+        .englishlanguange { background-color: #6cd382; }
+        .bahasamelayu { background-color: #c78ea9; }
+        .mandarin { background-color: #00be8f; }
+        .kadazandusun { background-color: #dfdd78;}
+
+        /* Footer */
+        footer {
+            color: white;
+            background-color: #0e0d0dd5;
+            padding: 25px;
+            text-align: center;
+            font-weight: 200;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="about.html"><img src="image/style3.jpg.png" alt=""></a>
+        <h1>SKILLS</h1>
+    </div>
+
+    <!-- Navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="personaldetail.html">Personal Details</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Skills Section -->
+    <div class="skills-section">
+        <h2>Skills</h2>
+
+        <div class="skill-bar-container">
+            <div class="skill-bar">
+                <span class="softskills" style="width:100%;">Soft Skills</span>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <div class="skill-name">Leadership</div>
+            <div class="skill-bar">
+                <span class="leadership" style="width:80%;">Beginner</span>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <div class="skill-name">Communication</div>
+            <div class="skill-bar">
+                <span class="communication" style="width: 85%;">Beginner</span>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <div class="skill-name">Critical Thinking</div>
+            <div class="skill-bar">
+                <span class="criticalthinking" style="width: 87%;">Advanced</span>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <div class="skill-name">Time Management</div>
+            <div class="skill-bar">
+                <span class="timemanagement" style="width: 89%;">Advanced</span>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <div class="skill-name">Problem Solving</div>
+            <div class="skill-bar">
+                <span class="problemsolving" style="width: 95%;">Advanced</span>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <div class="skill-bar">
+                <span class="programmingskills" style="width:100%;">Programming Language's Skills</span>
+            </div>
+        </div>
+
+        <!-- Programming Language -->
+        <div class="skill-bar-container">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+                <span class="html" style="width: 90%;">Advanced</span>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar">
+                <span class="css" style="width: 80%;">Advanced</span>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar">
+                <span class="javascript" style="width: 75%;">Beginnerr</span>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <div class="skill-name">Python</div>
+            <div class="skill-bar">
+                <span class="python" style="width: 70%;">Beginner</span>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <div class="skill-name">SQL</div>
+            <div class="skill-bar">
+                <span class="sql" style="width: 65%;">Beginner</span>
+
+                </div>
+            </div>
+            <div class="skill-bar-container">
+                <div class="skill-bar">
+                    <span class="programmingskills" style="width:100%;">Languange Proficiency</span>
+                </div>
+            </div>
+    
+            <div class="skill-bar-container">
+                <div class="skill-name">Malay</div>
+                <div class="skill-bar">
+                    <span class="bahasamelayu" style="width: 95%;">Advanced</span>
+        </div>
+    </div>
+    <div class="skill-bar-container">
+        <div class="skill-name">English</div>
+        <div class="skill-bar">
+            <span class="englishlanguange" style="width: 85%;">Advanced</span>
+</div>
+</div>
+<div class="skill-bar-container">
+    <div class="skill-name">KadazanDusun</div>
+    <div class="skill-bar">
+        <span class="kadazandusun" style="width: 85%;">Advanced</span>
+</div>
+</div>
+<div class="skill-bar-container">
+    <div class="skill-name">Mandarin</div>
+    <div class="skill-bar">
+        <span class="mandarin" style="width: 60%;">Beginner</span>
+</div>
+</div>
+</div>
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Aerolina Joanne Aprzoh. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
